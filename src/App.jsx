@@ -1,9 +1,14 @@
 import React from 'react';
+import styles from './style';
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello React with Vite</h1>
+    <div className="bg-primary w-full overflow-hidden">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>NAVBAR</div>
+      </div>
+
+      <div className={`bg-primary ${styles.flexStart}`}></div>
     </div>
   );
 };
